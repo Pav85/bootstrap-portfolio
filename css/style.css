@@ -1,0 +1,29 @@
+:root {
+    --repeatedColor1: #FBE8A6;
+    --repeatedColor2: #F4976C;
+    --repeatedColor3: #303C6C;
+    --repeatedColor4: #B4DFE5;
+    --repeatedColor5: #D2FDFF;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: var(--repeatedColor3); */
+}  
+
+/* navbar */
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: var(--repeatedColor2) !important;
+    z-index: 10;
+    
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
