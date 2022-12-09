@@ -48,3 +48,9 @@ body {
     padding-bottom: 40px;
     color: var(--repeatedColor5);
 }
+
+/* section content */
+
+.pageWrapper {
+    background-color: var(--repeatedColor1);
+}
