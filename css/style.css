@@ -13,6 +13,39 @@ body {
     /* color: var(--repeatedColor3); */
 }  
 
+/* text */
+
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--repeatedColor3);
+  }
+
+
 /* navbar */
 
 .customNav {
@@ -47,10 +80,25 @@ body {
     justify-content: left;
     padding-bottom: 40px;
     color: var(--repeatedColor5);
+    margin-bottom: 0%;
 }
 
 /* section content */
 
 .pageWrapper {
-    background-color: var(--repeatedColor1);
+    background-color: var(--repeatedColor4);
+    border-top: 5px solid var(--repeatedColor5);
 }
+
+/* about me */
+
+
+/* projects */
+
+/* skills */
+
+/* contact me */
+
+
+/* footer */
+
