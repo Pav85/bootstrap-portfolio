@@ -130,14 +130,14 @@ h1,
     justify-content: center;
     font-size: 18px;
     font-weight: 200;
-    /* bottom: 0 !important; */
     background-color: var(--repeatedColor2);
     color: var(--repeatedColor3);
+    /* border-top: 0 solid var(--repeatedColor1); */
 }
 
-.custFooter {
-    /* bottom: 0; */
+/* .custFooter {
+    bottom: 0;
     margin-bottom: 0;
     bottom: 0 !important;
 
-}
+} */
