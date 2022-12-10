@@ -6,11 +6,18 @@
     --repeatedColor5: #D2FDFF;
   }
 
+* {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+}
+  
 body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* color: var(--repeatedColor3); */
+    background-color: var(--repeatedColor1);
 }  
 
 /* text */
@@ -93,6 +100,8 @@ h1,
 /* about me */
 
 
+
+
 /* projects */
 
 /* skills */
@@ -102,3 +111,33 @@ h1,
 
 /* footer */
 
+/* .footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.8rem;
+    font-weight: 200;
+    padding: 2rem;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--repeatedColor2);
+    color: var(--repeatedColor3);
+    border-top: 0.3rem solid var(--repeatedColor1);
+} */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 200;
+    /* bottom: 0 !important; */
+    background-color: var(--repeatedColor2);
+    color: var(--repeatedColor3);
+}
+
+.custFooter {
+    /* bottom: 0; */
+    margin-bottom: 0;
+    bottom: 0 !important;
+
+}
