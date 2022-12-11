@@ -6,9 +6,9 @@
     --repeatedColor5: #D2FDFF;
   }
 
-* {
+html {
     box-sizing: border-box;
-    /* font-size: 62.5%; */
+    /* font-size: 65.5%; */
     scroll-behavior: smooth;
 }
   
@@ -18,6 +18,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* color: var(--repeatedColor3); */
     background-color: var(--repeatedColor1);
+    /* font-size: 62.5%; */
 }  
 
 /* text */
@@ -68,6 +69,9 @@ h1,
     margin-right: 0 !important;
 }
 
+.nav-link {
+  font-size: 20px;
+}
 /* hero-banner */
 
 /* .heroBanner {
@@ -97,8 +101,34 @@ h1,
     border-top: 5px solid var(--repeatedColor5);
 }
 
+.cusContainer {
+  width: 100%;
+  /* margin-right: 0; */
+  /* margin-left: 0; */
+  margin: 0;
+  /* border:; */
+}
+
 /* about me */
 
+.aboutMe {
+  /* margin: 5px; */
+  /* padding: 40px; */
+  /* display: flex; */
+  min-height: 300px;
+  border-right: 5px solid var(--repeatedColor3);
+  text-align: right;
+  margin-top: 15px;
+  /* margin-right: 15px; */
+  padding-right: 15px;
+}
+
+.contentAboutMe {
+  /* display: flex; */
+  /* text-align: justify; */
+  /* justify-content: center; */
+  /* margin-right: 15px; */
+}
 
 
 
