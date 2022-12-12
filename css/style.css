@@ -80,7 +80,7 @@ h1,
     width: 100%;
     background: var(--repeatedColor2) !important;
     z-index: 10;
-    /* color: var(--repeatedColor1) !important; */
+    /* opacity: 0.9; */
     border-bottom: 0.3rem solid var(--repeatedColor3);
 }
 
@@ -148,7 +148,7 @@ h1,
   padding-top: 20px;
   margin-top: 20px;
   padding-right: 15px;
-  /* font-size: 1.8rem !important; */
+  font-size: 4.2rem;
 }
 
 .contentAboutMe {
@@ -170,9 +170,9 @@ h1,
 }
 
 .work {
-  /* min-height: max-content; */
   border-right: 5px solid var(--repeatedColor3);
   text-align: right;
+  font-size: 4.2rem;
   padding-top: 20px;
   margin-top: 20px;
   padding-right: 15px;
@@ -185,11 +185,12 @@ h1,
 /* cards with projects */
 
 .content {
-  padding: 50px;
+  padding: 30px;
 }
 
 .cardContainer {
   text-align: center;
+  /* max-height: 400px; */
 }
 
 .card-img-top {
@@ -198,6 +199,7 @@ h1,
 
 .card {
   background-color: var(--repeatedColor5);
+  margin: 20px;
 }
 
 /* skills */
@@ -211,6 +213,7 @@ h1,
   display: flex;
   justify-content: flex-end;
   min-height: auto;
+  font-size: 4.2rem;
   padding-top: 20px;
   margin-top: 20px;
   padding-right: 15px;
@@ -230,6 +233,7 @@ h1,
   display: flex;
   justify-content: flex-end;
   text-align: right;
+  font-size: 4.2rem;
   min-height: 300px;
   border-right: 5px solid var(--repeatedColor3);
   padding-top: 20px;
