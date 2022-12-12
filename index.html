@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Pawel // Web Developer</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- main logo / nav -->
     <header>
         <nav class="customNav navbar navbar-expand-lg navbar-light bg-light">
@@ -55,15 +55,17 @@
     <!-- content section -->
 
     <main class="pageWrapper">
+      
 
       <!-- about me -->
 
-        <div class="container">
+        <div class="container-fluid cusContainer">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-2 aboutMe">
+              <!-- <h2>About Me</h2> -->
               About Me
             </div>
-            <div class="col-sm">
+            <div class="col-sm-10 contentAboutMe">
               Hi There! I'a Pawel and I am Front-End Web Development bootcamp student. 
               I am learning how to build responsive web applications and want to work as a developer after graduating.
             </div>
@@ -73,19 +75,19 @@
 
         <!-- portfolio container - work-->
 
-        <div class="container">
+        <div class="container-fluid custWork">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-2 work">
               Work
             </div>
-            <div class="col-sm">
-              <div class="container">
+            <div class="col-sm-10 contentWork">
+              <div class="container-fluid">
                 <div class="row">
                   <div class="col-sm-12">
                     Project 1
                   </div>
                 </div>
-                <div class="container">
+                <div class="container-fluid">
                   <div class="row">
                     <div class="col-sm-6">
                       Project 2
@@ -102,12 +104,12 @@
 
         <!-- skills section -->
 
-        <div class="container">
+        <div class="container-fluid cusSkills">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-2 skills">
               Skills
             </div>
-            <div class="col-sm">
+            <div class="col-sm-10 contentSkills">
               <div>After the bootcamp i will know how to:</div>
               <ul>
                 <li>Skill 1</li>
@@ -121,12 +123,12 @@
 
        <!-- contact -->
 
-        <div class="container">
+        <div class="container-fluid custContactMe">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-2 contactMe">
               Contact Me
             </div>
-            <div class="col-sm">
+            <div class="col-sm-10">
               <div class="contentContactMe">
                 <div class="contactLinks">
                   <a href="tel:+447510725530" class="buttonContacts">
@@ -160,12 +162,12 @@
 
     <!-- footer -->
 
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start custFooter mt-auto">
 
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <div class="text-center p-3 footer">
+        © 2020 Copyright: Pawel Werbowy
+        <!-- <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
       </div>
       <!-- footer source: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
     </footer>
