@@ -153,8 +153,9 @@ h1,
 
 .contentAboutMe {
   text-align: justify;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   margin-top: 20px;
+  padding: 20px 50px 20px 50px;
 }
 
 .contentAboutMe p {
@@ -181,7 +182,23 @@ h1,
   /* margin-top: 15px; */
 
 }
-/* projects */
+/* cards with projects */
+
+.content {
+  padding: 50px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.card-img-top {
+  min-height: 300px;
+}
+
+.card {
+  background-color: var(--repeatedColor5);
+}
 
 /* skills */
 
