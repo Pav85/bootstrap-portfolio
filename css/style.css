@@ -48,6 +48,12 @@ h1,
     font-size: 4.2rem !important;
   }
 
+  h3 {
+    font-size: 2.8rem;
+  }
+
+
+
   ul {
     list-style: none;
   }
@@ -141,8 +147,8 @@ h1,
 /* about me */
 
 .aboutMe {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   min-height: 300px;
   border-right: 5px solid var(--repeatedColor3);
   padding-top: 20px;
@@ -171,11 +177,13 @@ h1,
 
 .work {
   border-right: 5px solid var(--repeatedColor3);
-  text-align: right;
+  /* text-align: right; */
   font-size: 4.2rem;
   padding-top: 20px;
   margin-top: 20px;
   padding-right: 15px;
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .contentWork {
@@ -204,8 +212,12 @@ h1,
 
 /* skills */
 
-.skillsBox {
+.skillsContactRow {
+  border-top: 5px solid var(--repeatedColor2);
+}
 
+.skillsBox {
+  background-color: var(--repeatedColor5);
 }
 
 .cusSkills {
@@ -214,8 +226,8 @@ h1,
 
 .skills {
   border-right: 5px solid var(--repeatedColor3);
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   min-height: auto;
   font-size: 4.2rem;
   padding-top: 20px;
@@ -230,7 +242,7 @@ h1,
 /* contact me */
 
 .contactBox {
-  
+  background-color: var(--repeatedColor1);
 }
 
 .custContactMe {
@@ -238,9 +250,10 @@ h1,
 }
 
 .contactMe {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  text-align: right;
+  text-align: right; */
+  text-align: justify;
   font-size: 4.2rem;
   min-height: 300px;
   border-right: 5px solid var(--repeatedColor3);
@@ -250,7 +263,11 @@ h1,
 }
 
 .contentContactMe {
-  
+  /* display: flex;
+  justify-content: center;
+  align-items:center; */
+  padding: 30px;
+
 }
 /* footer */
 
