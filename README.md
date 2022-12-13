@@ -38,7 +38,22 @@ My recreated portfolio page contains:
 * buttons display a box shadow upon hover
 
 ## Installation 
+
  After opening this url:"https://pav85.github.io/bootstrap-portfolio/" you should see this:
+ ![Portfolio page](./images/Untitled.jpg)
+
+## Usage 
+
+When deployed the website's tab will have a descriptive title. When opening browser's console there will be clear and visible comments in html and css file describing the changes in the code.
+
+## Credits 
+
+N/A
+
+## Licence 
+
+MIT Licence
+
  
 
 
