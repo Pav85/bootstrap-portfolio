@@ -82,17 +82,26 @@ h1,
 /* navbar */
 
 .customNav {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background: var(--repeatedColor2) !important;
     z-index: 10;
     /* opacity: 0.9; */
-    border-bottom: 0.3rem solid var(--repeatedColor3);
+    border-bottom: 0.3rem solid var(--repeatedColor5);
 }
 
 .customNav a {
   color: var(--repeatedColor3) !important;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+.customNav a:hover {
+  background-color: var(--repeatedColor1);
+  /* padding: 15px !important; */
+  /* margin-top: 10px; */
+  /* margin-right: 5px; */
 }
 
 .navbar-nav {
@@ -101,9 +110,25 @@ h1,
 }
 
 .title {
-  font-size: 2.6rem;
+  background-color: var(--repeatedColor1);
+  font-size: 3rem;
+  font-weight: 600;
   color: var(--repeatedColor3) !important;
-}
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  border-radius: 25px 5px 25px 5px;
+  }
+
+  /* .title {
+    background-color: var(--repeatedColor1);
+    padding: 1.7rem 3rem 1.5rem 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 2.6rem;
+    color: var(--repeatedColor3);
+    margin-inline-end: auto;
+  } */
+
 
 /* hero-banner */
 
@@ -130,7 +155,7 @@ h1,
 
 .pageWrapper {
     background-color: var(--repeatedColor4);
-    border-top: 5px solid var(--repeatedColor5);
+    border-top: 5px solid var(--repeatedColor2);
     width: 100%;
 }
 
@@ -302,7 +327,7 @@ h1,
 /* footer */
 
 
-.footer {
+/* .footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,5 +335,36 @@ h1,
     font-weight: 200;
     background-color: var(--repeatedColor2);
     color: var(--repeatedColor3);
+} */
+
+.custFooter {
+  background-color: var(--repeatedColor1) !important;
+  color: var(--repeatedColor3) !important;
 }
 
+.footerNav {
+  background-color: var(--repeatedColor4);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.footerA {
+  border: 2px solid var(--repeatedColor3);
+  border-radius: 10px;
+  background-color: var(--repeatedColor2);
+  margin: 1em auto;
+  text-align: center;
+}
+
+.footerA:hover {
+  box-shadow: 5px 5px 8px var(--repeatedColor3);
+  background-color: var(--repeatedColor2);
+}
+
+.container h6 {
+  font-size: 1.8rem;
+}
+
+.copyright {
+  background-color: var(--repeatedColor2);
+  font-size: 2rem;
+}
