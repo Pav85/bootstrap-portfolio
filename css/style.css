@@ -49,7 +49,7 @@ h1,
   }
 
   h3 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 
 
@@ -147,19 +147,23 @@ h1,
 /* about me */
 
 .aboutMe {
-  /* display: flex;
-  justify-content: flex-end; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 300px;
+  min-width: 150px;
   border-right: 5px solid var(--repeatedColor3);
   padding-top: 20px;
+  padding-bottom: 180px;
   margin-top: 20px;
   padding-right: 15px;
   font-size: 4.2rem;
 }
 
 .contentAboutMe {
+  display: flex;
+  justify-content:center;
   text-align: justify;
-  /* padding-top: 20px; */
   margin-top: 20px;
   padding: 20px 50px 20px 50px;
 }
@@ -169,6 +173,8 @@ h1,
   /* margin: 4rem 8rem 4rem 7rem !important; */
 
 }
+
+
 /* work */
 
 .custWork {
@@ -177,12 +183,13 @@ h1,
 
 .work {
   border-right: 5px solid var(--repeatedColor3);
-  /* text-align: right; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
   font-size: 4.2rem;
   padding-top: 20px;
   margin-top: 20px;
   padding-right: 15px;
-  /* padding-bottom: 20px; */
   margin-bottom: 20px;
 }
 
@@ -212,77 +219,11 @@ h1,
 
 /* skills */
 
-.skillsContactRow {
-  border-top: 5px solid var(--repeatedColor2);
-}
 
-.skillsBox {
-  background-color: var(--repeatedColor5);
-}
 
-.cusSkills {
-  margin-top: 20px;
-}
 
-.skills {
-  border-right: 5px solid var(--repeatedColor3);
-  /* display: flex;
-  justify-content: flex-end; */
-  min-height: auto;
-  font-size: 4.2rem;
-  padding-top: 20px;
-  margin-top: 20px;
-  padding-right: 15px;
-}
-
-.contentSkills {
-
-}
-
-/* contact me */
-
-.contactBox {
-  background-color: var(--repeatedColor1);
-}
-
-.custContactMe {
-
-}
-
-.contactMe {
-  /* display: flex;
-  justify-content: flex-end;
-  text-align: right; */
-  text-align: justify;
-  font-size: 4.2rem;
-  min-height: 300px;
-  border-right: 5px solid var(--repeatedColor3);
-  padding-top: 20px;
-  margin-top: 20px;
-  padding-right: 15px;
-}
-
-.contentContactMe {
-  /* display: flex;
-  justify-content: center;
-  align-items:center; */
-  padding: 30px;
-
-}
 /* footer */
 
-/* .footer {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 2.8rem;
-    font-weight: 200;
-    padding: 2rem;
-    width: 100%;
-    bottom: 0;
-    background-color: var(--repeatedColor2);
-    color: var(--repeatedColor3);
-    border-top: 0.3rem solid var(--repeatedColor1);
-} */
 
 .footer {
     display: flex;
@@ -292,12 +233,5 @@ h1,
     font-weight: 200;
     background-color: var(--repeatedColor2);
     color: var(--repeatedColor3);
-    /* border-top: 0 solid var(--repeatedColor1); */
 }
 
-/* .custFooter {
-    bottom: 0;
-    margin-bottom: 0;
-    bottom: 0 !important;
-
-} */
